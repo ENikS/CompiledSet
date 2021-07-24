@@ -26,9 +26,9 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\src\Analyzer\Analyzer.csproj" />
-    <ProjectReference Include="..\src\CodeFixes\CodeFixes.csproj" />
-    <ProjectReference Include="..\src\Generator\Generator.csproj" />
+    <ProjectReference Include="..\src\Analyzer\CompiledSet.Analyzer.csproj" />
+    <ProjectReference Include="..\src\CodeFixes\CompiledSet.CodeFixes.csproj" />
+    <ProjectReference Include="..\src\Generator\CompiledSet.Generator.csproj" />
   </ItemGroup>
 
   <ItemGroup>
@@ -37,7 +37,7 @@
 
   <Target Name="_AddAnalyzersToOutput">
     <ItemGroup>
-      <TfmSpecificPackageFile Include="$(OutputPath)\Analyzer.dll"  PackagePath="analyzers/dotnet/cs" />
+      <TfmSpecificPackageFile Include="$(OutputPath)\Analyzer.dll" PackagePath="analyzers/dotnet/cs" />
       <TfmSpecificPackageFile Include="$(OutputPath)\CodeFixes.dll" PackagePath="analyzers/dotnet/cs" />
       <TfmSpecificPackageFile Include="$(OutputPath)\Generator.dll" PackagePath="analyzers/dotnet/cs" />
     </ItemGroup>

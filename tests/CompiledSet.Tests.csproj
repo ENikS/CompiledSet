@@ -21,9 +21,9 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\src\Analyzer\Analyzer.csproj" />
-    <ProjectReference Include="..\src\CodeFixes\CodeFixes.csproj" />
-    <ProjectReference Include="..\src\Generator\Generator.csproj" />
+    <ProjectReference Include="..\src\Analyzer\CompiledSet.Analyzer.csproj" />
+    <ProjectReference Include="..\src\CodeFixes\CompiledSet.CodeFixes.csproj" />
+    <ProjectReference Include="..\src\Generator\CompiledSet.Generator.csproj" />
   </ItemGroup>
 
 </Project>

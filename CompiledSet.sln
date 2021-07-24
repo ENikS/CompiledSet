@@ -3,17 +3,17 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.31521.260
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Analyzer", "src\Analyzer\Analyzer.csproj", "{26C9EAAB-1BC5-4214-A3C0-A28242797F08}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CompiledSet.Analyzer", "src\Analyzer\CompiledSet.Analyzer.csproj", "{26C9EAAB-1BC5-4214-A3C0-A28242797F08}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CodeFixes", "src\CodeFixes\CodeFixes.csproj", "{7FF24CA7-F4CC-4352-8F55-E19BB2A49B81}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CompiledSet.CodeFixes", "src\CodeFixes\CompiledSet.CodeFixes.csproj", "{7FF24CA7-F4CC-4352-8F55-E19BB2A49B81}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Package", "package\Package.csproj", "{5C0FAC45-40DA-46CE-87FA-E3820EC81CA5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CompiledSet.Package", "package\CompiledSet.Package.csproj", "{5C0FAC45-40DA-46CE-87FA-E3820EC81CA5}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Vsix", "vsix\Vsix.csproj", "{B2580773-0B7F-430E-A80F-0817D7111B2B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CompiledSet.Vsix", "vsix\CompiledSet.Vsix.csproj", "{B2580773-0B7F-430E-A80F-0817D7111B2B}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tests", "tests\Tests.csproj", "{DF1977C5-91BE-494C-A671-F9CADDBA0608}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CompiledSet.Tests", "tests\CompiledSet.Tests.csproj", "{DF1977C5-91BE-494C-A671-F9CADDBA0608}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Generator", "src\Generator\Generator.csproj", "{8A259F3C-F08F-4A50-BB22-9B8C9A2CC995}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CompiledSet.Generator", "src\Generator\CompiledSet.Generator.csproj", "{8A259F3C-F08F-4A50-BB22-9B8C9A2CC995}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
