@@ -9,7 +9,6 @@
 
   <PropertyGroup>
     <PackageId>SourceGenerator.CompiledSet</PackageId>
-    <PackageVersion>1.0.0.0</PackageVersion>
     <Authors>ENikS</Authors>
     <PackageLicenseUrl>https://github.com/ENikS/CompiledSet/blob/main/LICENSE</PackageLicenseUrl>
     <PackageProjectUrl>https://github.com/ENikS/CompiledSet</PackageProjectUrl>
