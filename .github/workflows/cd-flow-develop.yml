@@ -11,7 +11,7 @@ jobs:
   build:
     runs-on: windows-latest
     env:
-      PackageName: 'Unity.Precompiler'
+      PackageName: 'CompiledSet'
       PackageOutputPath: '${{ github.workspace }}\package'
       TargetFramework: 'netcoreapp3.1'
 
